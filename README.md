@@ -114,16 +114,11 @@ git commit -m "Hello World / 1분"
     <!-- 23.07.10 문제 -->
     <tr style="text-align: center">
         <td rowspan="3">1주차</td>
-        <td>SWEA</td><td>5215</td><td>햄버거 다이어트</td><td>D3</td>
-        <td><a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT&categoryId=AWT-lPB6dHUDFAVT&categoryType=CODE&problemTitle=%ED%96%84%EB%B2%84%EA%B1%B0&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1">바로가기</a></td>
+        <td>BOJ</td><td>1018</td><td>체스판 다시 칠하기</td><td>실버4</td>
+        <td><a href="https://www.acmicpc.net/problem/1018">바로가기</a></td>
     </tr>
     <tr style="text-align: center">
-        <td>BOJ</td><td>1343</td><td>폴리오미노</td><td>실버5</td>
-        <td><a href="https://www.acmicpc.net/problem/1343">바로가기</a></td>
+        <td>BOJ</td><td>2529</td><td>부등호</td><td>실버1</td>
+        <td><a href="https://www.acmicpc.net/problem/2529">바로가기</a></td>
     </tr>
-    <tr style="text-align: center">
-        <td>BOJ</td><td>14916</td><td>거스름돈</td><td>실버5</td>
-        <td><a href="https://www.acmicpc.net/problem/14916">바로가기</a></td>
-    </tr> 
-
 </table>
