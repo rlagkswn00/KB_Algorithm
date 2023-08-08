@@ -117,12 +117,21 @@ git commit -m "[김한주] Brute Force Commit"
 <table>
     <!-- 23.07.10 문제 -->
     <tr style="text-align: center">
-        <td rowspan="3">1주차</td>
+        <td rowspan="2">1주차</td>
         <td>BOJ</td><td>1018</td><td>체스판 다시 칠하기</td><td>실버4</td>
         <td><a href="https://www.acmicpc.net/problem/1018">바로가기</a></td>
     </tr>
     <tr style="text-align: center">
         <td>BOJ</td><td>2529</td><td>부등호</td><td>실버1</td>
         <td><a href="https://www.acmicpc.net/problem/2529">바로가기</a></td>
+    </tr>
+	<tr style="text-align: center">
+        <td rowspan="2">2주차</td>
+        <td>BOJ</td><td>9095</td><td>1, 2, 3 더하기</td><td>실버3</td>
+        <td><a href="https://www.acmicpc.net/problem/9095">바로가기</a></td>
+    </tr>
+    <tr style="text-align: center">
+        <td>BOJ</td><td>1759</td><td>암호 만들기</td><td>골드5</td>
+        <td><a href="https://www.acmicpc.net/problem/1759">바로가기</a></td>
     </tr>
 </table>
