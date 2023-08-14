@@ -12,6 +12,8 @@ dy=[0,0,-1,1]
 
 max_v = max(map(max, arr)) # 최대 높이
 min_v = min(map(min, arr)) # 최소 높이
+
+
 ans = -1
 
 def bfs(i,j,cnt):
@@ -50,4 +52,42 @@ print(ans)
 
 
 
+# 더 좋은 풀이: 내 풀이의 단점: height 를 최대~최소까지 탐색해서 시간이 오래걸린다. 주어진 heights만 탐색하면 시간이 줄어들 것.
+# n = int(input())
+# heights = set()
+# graph = []
+# for _ in range(n):
+#     graph.append(list(map(int, input().split())))
+#     for h in graph[-1]:
+#         heights.add(h)
+# visited = [[False] * n for _ in range(n)]
 
+# def bfs(sy, sx, rain, visited):
+
+#     queue = deque([(sy, sx)])
+#     visited[sy][sx] = True
+
+#     while queue:
+#         y, x = queue.popleft()
+
+#         for dy, dx in [(0,-1),(-1,0),(0,1),(1,0)]:
+#             ny = dy + y
+#             nx = dx + x
+#             if 0<=ny<n and 0<=nx<n:
+#                 if graph[ny][nx] > rain and not visited[ny][nx]:
+#                     queue.append((ny,nx))
+#                     visited[ny][nx] = True
+
+# def count_safe_area(rain, visited):
+#     cnt = 0
+#     for i in range(n):
+#         for j in range(n):
+#             if graph[i][j] > rain and not visited[i][j]:
+#                 bfs(i, j, rain, visited)
+#                 cnt += 1
+#     return cnt
+
+# max_cnt = 1
+# for h in heights:
+#     max_cnt = max(max_cnt, count_safe_area(h, [v[:] for v in visited] ))
+# print(max_cnt)
