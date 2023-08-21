@@ -5,24 +5,26 @@ n = int(sys.stdin.readline())
 arr=[]
 classes=[]
 
-start = 0
+
 end =0
 cnt = 1
 
 for _ in range(n):
     s,e=map(int,sys.stdin.readline().split())
-    heapq.heappush(arr,(e,s))
+    heapq.heappush(arr,(e,s)) #종료시간이 이른 기준으로 정렬
 
 e,s = heapq.heappop(arr)
 heapq.heappush(classes,e)
 
 while arr:
-    end = classes[0]
+    end = classes[0] #heapq 를 사용해서 늘 종료시간이 이른 회의시간을 비교
+    e,s = heapq.heappop(arr)
     if s < end: 
         cnt += 1
+        heapq.heappush(classes,e) 
     else:
-        start=s
-        end=e
+        heapq.heappop(classes)
+        heapq.heappush(classes,e) 
 print(cnt)
 
 
