@@ -1,8 +1,9 @@
 import sys
 import heapq
+from collections import deque 
 
 n = int(sys.stdin.readline())
-arr=[]
+arr=deque()
 classes=[]
 
 
@@ -11,14 +12,15 @@ cnt = 1
 
 for _ in range(n):
     s,e=map(int,sys.stdin.readline().split())
-    heapq.heappush(arr,(e,s)) #종료시간이 이른 기준으로 정렬
+    arr.append((s,e)) 
 
-e,s = heapq.heappop(arr)
+arr = deque(sorted(arr)) #시작시간이 이른 기준으로 정렬
+s,e = arr.popleft()
 heapq.heappush(classes,e)
 
 while arr:
     end = classes[0] #heapq 를 사용해서 늘 종료시간이 이른 회의시간을 비교
-    e,s = heapq.heappop(arr)
+    s,e = arr.popleft()
     if s < end: 
         cnt += 1
         heapq.heappush(classes,e) 
