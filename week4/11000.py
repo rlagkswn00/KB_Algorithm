@@ -30,6 +30,8 @@ while arr:
 print(cnt)
 
 
+
+# 다른 풀이
 # import heapq
 # n = int(input())
 
