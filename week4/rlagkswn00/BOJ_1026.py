@@ -18,6 +18,9 @@ b.sort()
 
 result = 0
 for i in range(n):
-    result += a[i] * b[i]
+    # result += a[i] * b[i]
+    result += min(a) * max(b)
+    a.pop(a.index(min(a)))
+    b.pop(b.index(max(b)))
 
 print(result)
