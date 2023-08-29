@@ -153,4 +153,13 @@ git commit -m "[김한주] Brute Force Commit"
         <td>BOJ</td><td>11000</td><td>강의실 배정</td><td>골드5</td>
         <td><a href="https://www.acmicpc.net/problem/11000">바로가기</a></td>
     </tr>
+	<tr style="text-align: center">
+        <td rowspan="2">5주차</td>
+        <td>BOJ</td><td>1406</td><td>에디터</td><td>실버2</td>
+        <td><a href="https://www.acmicpc.net/problem/1406">바로가기</a></td>
+    </tr>
+	<tr style="text-align: center">
+        <td>BOJ</td><td>11000</td><td>직사각형</td><td>실버1</td>
+        <td><a href="https://www.acmicpc.net/problem/2527">바로가기</a></td>
+    </tr>
 </table>
