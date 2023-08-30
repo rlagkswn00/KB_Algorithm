@@ -144,7 +144,7 @@ git commit -m "[김한주] Brute Force Commit"
         <td>BOJ</td><td>2468</td><td>안전영역</td><td>실버1</td>
         <td><a href="https://www.acmicpc.net/problem/2468">바로가기</a></td>
     </tr>
-	<tr style="text-align: center">
+    <tr style="text-align: center">
         <td rowspan="2">4주차</td>
         <td>BOJ</td><td>1026</td><td>보물</td><td>실버4</td>
         <td><a href="https://www.acmicpc.net/problem/1026">바로가기</a></td>
@@ -153,7 +153,7 @@ git commit -m "[김한주] Brute Force Commit"
         <td>BOJ</td><td>11000</td><td>강의실 배정</td><td>골드5</td>
         <td><a href="https://www.acmicpc.net/problem/11000">바로가기</a></td>
     </tr>
-	<tr style="text-align: center">
+    <tr style="text-align: center">
         <td rowspan="2">5주차</td>
         <td>BOJ</td><td>1406</td><td>에디터</td><td>실버2</td>
         <td><a href="https://www.acmicpc.net/problem/1406">바로가기</a></td>
@@ -161,5 +161,14 @@ git commit -m "[김한주] Brute Force Commit"
 	<tr style="text-align: center">
         <td>BOJ</td><td>11000</td><td>직사각형</td><td>실버1</td>
         <td><a href="https://www.acmicpc.net/problem/2527">바로가기</a></td>
+    </tr>
+    <tr style="text-align: center">
+        <td rowspan="2">6주차</td>
+        <td>BOJ</td><td>2579</td><td>계단 오르가</td><td>실버3</td>
+        <td><a href="https://www.acmicpc.net/problem/2579">바로가기</a></td>
+    </tr>
+	<tr style="text-align: center">
+        <td>BOJ</td><td>15486</td><td>퇴사2</td><td>골드5</td>
+        <td><a href="https://www.acmicpc.net/problem/15486">바로가기</a></td>
     </tr>
 </table>
